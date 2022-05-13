@@ -1,0 +1,107 @@
+body {
+	background-color: #33CCCC;
+}
+#catalogDiv {
+	float: left; 
+    font-size: 40px;
+    margin-top: 10px;
+    width: 200px; 
+    margin-right: 10px;
+    text-align: center;
+}
+input {
+    font-style: inherit;
+    color: orange;
+    padding: 10px;
+    font-size: 20px;
+}
+ul {
+    font-style: inherit;
+    list-style-image: url(book_error.png);
+}
+a {
+	color: green;
+    height: 15px;
+}	
+h1 {
+	color: green;
+}
+#sort_info {
+    font-style: italic;
+    line-height: 16px;
+    background-color: #707070;
+    font-size: 14;
+    font-weight: 400;
+}
+#large_info {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+h1 {
+	background-color: #eaeaea;
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+}
+.conteiner {
+    width: 90%;
+    margin:0 auto;
+}
+.main {
+    min-height: calc(100vh - 170px);
+}
+header {
+    text-align: right;
+}
+.header_img {
+    width: 30px;
+    height: 30px;
+}
+.main_img1 {
+    float: left;
+}
+.main_img {
+    float: left;
+    width: 600px;
+    height: 350px;
+}
+.buy {
+    opacity: 65%;
+    width: 100px;
+}
+.buy:hover {
+        opacity: 100%;
+    }
+}
+footer {
+    text-align: center;
+    height: 150;
+}
+.textDiv {
+    width: 400px;
+    float: left;
+    background-color: white;
+}
+.imgDiv {
+    float: left;
+    background-color: white;
+}
+a:hover {
+    color: white;
+}
+hr {
+    color: black;
+    width: 100%;
+}
+iframe {
+    width: 100%;
+    height: 450px;
+    border:0;
+}
+.catalogImg {
+    height: 180px;
+    width: 250px;
+}
